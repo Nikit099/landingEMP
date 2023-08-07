@@ -1,6 +1,8 @@
 import { useState } from "react"
 import "./index.css"
 import PreOrder from "./components/preOrder"
+import Header from "./components/header"
+
 
 function App() {
   const [order, setOrder] = useState([
@@ -10,7 +12,9 @@ function App() {
 
   return (
     <div className="App">
+      <Header />
       <PreOrder order={order} setOrder={setOrder} />
+
     </div>
   )
 }
