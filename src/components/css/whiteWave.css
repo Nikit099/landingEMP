@@ -22,3 +22,169 @@
     font-family: "Inter-regular";
     src: url('../fonts/Inter-Regular.ttf');
 }
+
+.wW-main {
+    display: flex;
+    flex-direction: row;
+}
+
+.wW-main-grid-1 {
+    display: grid;
+    grid-template-columns: 0fr 0fr;
+    grid-template-rows: 0fr 0fr;
+}
+
+.wW-main-img-1 {
+
+}
+
+.img-1 {
+
+}
+
+.wW-main-title-1 {
+    font-family: "Inter-bold";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 115%; /* 25.3px */
+
+    width: 258px;
+    height: 50px;    
+
+    background: linear-gradient(94deg, #409C51 0%, #97D0A9 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+
+.title-span-1 {
+
+}
+
+.wW-main-empty-1 {
+
+}
+
+.wW-main-text-1 {
+    width: 310px;
+    height: 129px;
+
+    color: #419D51;
+    font-family: Judson;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 135.5%; /* 21.68px */
+}
+
+.text-span-1 {
+
+}
+
+.wW-main-grid-2 {
+    display: grid;
+}
+
+.wW-main-img-2 {
+
+}
+
+.img-2 {
+
+}
+
+.wW-main-title-2 {
+    font-family: "Inter-bold";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 115%; /* 25.3px */
+
+    width: 183px;
+    height: 50px;
+
+    background: linear-gradient(94deg, #409C51 0%, #97D0A9 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.title-span-2 {
+
+}
+
+.wW-main-empty-2 {
+
+}
+
+.wW-main-text-2 {
+    width: 320px;
+    height: 117px;
+
+    color: #419D51;
+    font-family: Judson;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 135.5%; /* 21.68px */
+}
+
+.text-span-2 {
+
+}
+
+.wW-main-grid-3 {
+    display: grid;
+}
+
+.wW-main-img-3 {
+
+}
+
+.img-3 {
+
+}
+
+.wW-main-title-3 {
+    font-family: "Inter-bold";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 115%; /* 25.3px */
+ 
+    width: 159px;
+    height: 50px;   
+
+    background: linear-gradient(94deg, #409C51 0%, #97D0A9 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.title-span-3 {
+
+}
+
+.wW-main-empty-3 {
+
+}
+
+.wW-main-text-3 {
+    width: 297px;
+    height: 129px;
+    flex-shrink: 0;
+
+    color: #419D51;
+    font-family: Judson;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 135.5%; /* 21.68px */
+}
+
+.text-span-3 {
+
+}
+

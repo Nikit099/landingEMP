@@ -1,8 +1,8 @@
-import { useState } from "react"
-import "./index.css"
-import Header from "./components/header"
-import WhiteWave from "./components/whiteWave"
-import PreOrder from "./components/preOrder"
+import { useState } from "react";
+import "./index.css";
+import Header from "./components/header";
+import WhiteWave from "./components/whiteWave";
+import PreOrder from "./components/preOrder";
 
 
 function App() {
