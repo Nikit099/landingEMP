@@ -3,6 +3,7 @@ import "./index.css";
 import Header from "./components/header";
 import WhiteWave from "./components/whiteWave";
 import PreOrder from "./components/preOrder";
+import GreenWave from "./components/greenWave";
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
     <div className="App">
       <Header />
       <WhiteWave />
+      <GreenWave />
       <PreOrder order={order} setOrder={setOrder} />
 
     </div>
