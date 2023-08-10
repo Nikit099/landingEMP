@@ -15,15 +15,19 @@ const GreenWave = () => {
                     <div className='central-reactions'>
                         <div className='central-reactions-block-1'>
                             <img src={testEmoji} alt='emoji'></img>
+                            <span>эмоция блевотны! Ура!</span>
                         </div>
                         <div className='central-reactions-block-2'>
                             <img src={testEmoji} alt='emoji'></img>
+                            <span>эмоция блевотны! Ура!</span>
                         </div>
                         <div className='central-reactions-block-3'>
                             <img src={testEmoji} alt='emoji'></img>
+                            <span>эмоция блевотны! Ура!</span>
                         </div>
                         <div className='central-reactions-block-4'>
                             <img src={testEmoji} alt='emoji'></img>
+                            <span>эмоция блевотны! Ура!</span>
                         </div>
                     </div>
                 </div>

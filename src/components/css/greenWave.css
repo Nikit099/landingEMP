@@ -28,7 +28,7 @@
 }
 
 .gW-img {
-    position: static;
+    position: relative;
     width: 100vw;
     z-index: -1;
 }
@@ -41,8 +41,11 @@
 
 }
 
-.central-reaction {
-
+.central-reactions {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    z-index: 1;
 }
 
 .central-reaction-block-1 {
