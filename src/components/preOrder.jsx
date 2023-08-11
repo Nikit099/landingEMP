@@ -1,10 +1,11 @@
 import React from 'react';
 
-const PreOrder = ({order, setOrder}) => {
+const PreOrder = ({order, setChangeInputs, handleFormSubmit}) => {
     return (
-        <div>
-            {order.map(elem => <input type='text' value={elem.body}  />)}
-        </div>
+        <form onSubmit={(e) => handleFormSubmit(e)}>
+            {order.map(elem => <input key={elem.title} type='text' value={elem.body} onChange={e => setChangeInputs(e, elem.title) } />)}
+            <button>Отправить</button>
+        </form>
     );
 };
 
