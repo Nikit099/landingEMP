@@ -1,6 +1,10 @@
 import React from 'react';
 import './css/header.css';
 import ivyPhoto from './media/ivyPhoto.svg';
+import savoringFood from './media/gif/savoring-food.gif';
+import firecracker from './media/firecracker.svg';
+import sparles from './media/sparkles.svg';
+import orangeDimond from './media/large-orange-diamond.svg';
 
 const Header = () => {
     return (
@@ -30,9 +34,11 @@ const Header = () => {
                     </div>
                 </div>
                 <div className='header-right'>
-                    <img className='header-right-img' src={ivyPhoto} alt='ivy'>
-
-                    </img>
+                    <img className='img-ivy' src={ivyPhoto} alt='ivy'/>
+                    <img className='img-firecracker' src={firecracker} alt='savor'/>
+                    <img className='img-orange-dimond' src={orangeDimond} alt='savor'/>
+                    <img className='img-sparles' src={sparles} alt='savor'/>
+                    <img className='img-savoring-food' src={savoringFood} alt='savor'/>
                 </div>
             </div>
         </div>

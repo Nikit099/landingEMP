@@ -107,5 +107,27 @@
 .header-right {
 }
 
-.header-right-img {
+.img-ivy {
+    position: relative;
+    z-index: 1;
+}
+
+.img-firecracker {
+    position: relative;
+    z-index: 0;
+}
+
+.img-orange-dimond {
+    position: relative;
+    z-index: 0;
+}
+
+.img-sparles {
+    position: relative;
+    z-index: 0;
+}
+
+.img-savoring-food {
+    position: relative;
+    z-index: 2;
 }

@@ -1,6 +1,16 @@
 import React from 'react';
 import './css/greenWave.css';
-import testEmoji from './media/test-emoji.gif';
+import sunglases from './media/gif/sunglases.gif';
+import pleadingFace from './media/gif/pleading-face.gif';
+import loveEyes from './media/gif/love-eyes.gif';
+import alien from './media/gif/alien.gif';
+import confidentSmile from './media/gif/confident-smile.gif';
+import cowboy from './media/gif/cowboy.gif';
+import crazy from './media/gif/crazy.gif';
+import glasesMustage from './media/gif/glases-mustage.gif';
+import heat from './media/gif/heat.gif';
+import hug from './media/gif/hug.gif';
+import illness from './media/gif/illness.gif';
 import greenWave from './media/green-wave.svg';
 
 const GreenWave = () => {
@@ -15,7 +25,7 @@ const GreenWave = () => {
                     <div className='central-reactions'>
                         <div className='central-reaction-block'>
                             <div>
-                                <img className='block-emoji' src={testEmoji} alt='emoji'></img>
+                                <img className='block-emoji' src={heat} alt='emoji'></img>
                             </div>
                             <div className='block-span'>
                                 Жара
@@ -23,26 +33,26 @@ const GreenWave = () => {
                         </div>
                         <div className='central-reaction-block'>
                             <div>
-                                <img className='block-emoji' src={testEmoji} alt='emoji'></img>
+                                <img className='block-emoji' src={loveEyes} alt='emoji'></img>
                             </div>
                             <div className='block-span'>
-                                Жара
+                                Радость
                             </div>
                         </div>
                         <div className='central-reaction-block'>
                             <div>
-                                <img className='block-emoji' src={testEmoji} alt='emoji'></img>
+                                <img className='block-emoji' src={illness} alt='emoji'></img>
                             </div>
                             <div className='block-span'>
-                                Жара
+                                Холод
                             </div>
                         </div>
                         <div className='central-reaction-block'>
                             <div>
-                                <img className='block-emoji' src={testEmoji} alt='emoji'></img>
+                                <img className='block-emoji' src={sunglases} alt='emoji'></img>
                             </div>
                             <div className='block-span'>
-                                Жара
+                                Солнечно
                             </div>
                         </div>
                     </div>
