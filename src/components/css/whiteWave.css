@@ -26,6 +26,17 @@
 .wW-main {
     display: flex;
     flex-direction: row;
+
+    max-width: 1440px;
+    min-width: 1440px;
+
+    justify-self: center;
+    justify-content: center;
+
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
 }
 
 .wW-main-grid-1 {
@@ -35,10 +46,12 @@
 
     row-gap: 24px;
     column-gap: 17px;
+
+    margin-right: 75px;
 }
 
 .wW-main-img-1 {
-
+    height: 90px;
 }
 
 .img-1 {
@@ -73,7 +86,7 @@
 
 .wW-main-text-1 {
     width: 310px;
-    height: 129px;
+    height: 82px;
 
     color: #419D51;
     font-family: Judson;
@@ -94,10 +107,12 @@
 
     row-gap: 24px;
     column-gap: 17px;
+
+    margin-right: 75px;
 }
 
 .wW-main-img-2 {
-
+    height: 90px;
 }
 
 .img-2 {
@@ -132,7 +147,7 @@
 
 .wW-main-text-2 {
     width: 310px;
-    height: 129px;
+    height: 82px;
 
     color: #419D51;
     font-family: Judson;
@@ -156,7 +171,9 @@
 }
 
 .wW-main-img-3 {
-
+    display: flex;
+    
+    height: 90px;
 }
 
 .img-3 {
@@ -191,7 +208,7 @@
 
 .wW-main-text-3 {
     width: 310px;
-    height: 129px;
+    height: 82px;
 
     color: #419D51;
     font-family: Judson;

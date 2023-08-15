@@ -10,24 +10,40 @@ const GreenWave = () => {
             <img className='gW-img' src={greenWave} alt='greenWave'></img>
                 <div className='central'>
                     <div className='central-title'>
-
+Большой набор реакций!
                     </div>
                     <div className='central-reactions'>
-                        <div className='central-reactions-block-1'>
-                            <img src={testEmoji} alt='emoji'></img>
-                            <span>эмоция блевотны! Ура!</span>
+                        <div className='central-reaction-block'>
+                            <div>
+                                <img className='block-emoji' src={testEmoji} alt='emoji'></img>
+                            </div>
+                            <div className='block-span'>
+                                Жара
+                            </div>
                         </div>
-                        <div className='central-reactions-block-2'>
-                            <img src={testEmoji} alt='emoji'></img>
-                            <span>эмоция блевотны! Ура!</span>
+                        <div className='central-reaction-block'>
+                            <div>
+                                <img className='block-emoji' src={testEmoji} alt='emoji'></img>
+                            </div>
+                            <div className='block-span'>
+                                Жара
+                            </div>
                         </div>
-                        <div className='central-reactions-block-3'>
-                            <img src={testEmoji} alt='emoji'></img>
-                            <span>эмоция блевотны! Ура!</span>
+                        <div className='central-reaction-block'>
+                            <div>
+                                <img className='block-emoji' src={testEmoji} alt='emoji'></img>
+                            </div>
+                            <div className='block-span'>
+                                Жара
+                            </div>
                         </div>
-                        <div className='central-reactions-block-4'>
-                            <img src={testEmoji} alt='emoji'></img>
-                            <span>эмоция блевотны! Ура!</span>
+                        <div className='central-reaction-block'>
+                            <div>
+                                <img className='block-emoji' src={testEmoji} alt='emoji'></img>
+                            </div>
+                            <div className='block-span'>
+                                Жара
+                            </div>
                         </div>
                     </div>
                 </div>

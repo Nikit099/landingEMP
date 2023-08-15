@@ -30,9 +30,15 @@
     
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
 
     max-height: 806px;
-    width: 100vw;
+    max-width: 1440px;
+    min-width: 1440px;
+
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .header-left {
@@ -78,6 +84,7 @@
 
 .header-left-space-button {
     margin-top: 110px;
+    margin-bottom: 168px;
 }
 
 .header-left-button {
@@ -98,11 +105,7 @@
 }
 
 .header-right {
-    height: 50vh;
-    width: 50vw;
 }
 
 .header-right-img {
-    height: 50vh;
-    width: 50vw;
 }
