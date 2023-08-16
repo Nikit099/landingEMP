@@ -19,6 +19,13 @@ const GreenWave = () => {
             <div className='gW'>
             <img className='gW-img' src={greenWave} alt='greenWave'></img>
                 <div className='central'>
+                    <img className='img-pleadingFace' src={pleadingFace}/>
+                    <img className='img-alien' src={alien}/>
+                    <img className='img-confidentSmile' src={confidentSmile}/>
+                    <img className='img-cowboy' src={cowboy}/>
+                    <img className='img-crazy' src={crazy}/>
+                    <img className='img-hug' src={hug}/>
+                    <img className='img-glasesMustage' src={glasesMustage}/>
                     <div className='central-title'>
 Большой набор реакций!
                     </div>
