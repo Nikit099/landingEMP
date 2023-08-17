@@ -4,6 +4,7 @@ import Header from "./components/header";
 import WhiteWave from "./components/whiteWave";
 import PreOrder from "./components/preOrder";
 import GreenWave from "./components/greenWave";
+import OurProducts from "./components/ourProducts";
 
 
 function App() {
@@ -17,8 +18,8 @@ function App() {
       <Header />
       <WhiteWave />
       <GreenWave />
+      <OurProducts />
       <PreOrder order={order} setOrder={setOrder} />
-
     </div>
   )
 }
