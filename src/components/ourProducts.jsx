@@ -1,8 +1,10 @@
 
 
 import React from 'react';
-import './css/header.css';
-import ivyPhoto from './media/ivyPhoto.svg';
+import './css/ourProducts.css';
+import ivyStraing from './media/ivy-straing.svg';
+import module from './media/module.svg';
+import mockup from './media/mockup-smartphone.svg';
 
 const OurProducts = () => {
     return (
@@ -14,28 +16,40 @@ const OurProducts = () => {
                 </div>
                 <div className='products'>
                     <div className='product'>
-                        <div className='product-photo'></div>
-                        <div className='product-title-block'>
-                            <div className='product-title'></div>
-                            <div className='product-title-block-emoji'></div>
+                        <div className='product-green-space'>
+                            <div className='product-photo'>
+                                <img className='product-photo-img' src={ivyStraing} alt='ivy-straing'></img>
+                            </div>
+                            <div className='product-title-block'>
+                                <div className='product-title'>Эмоциональный Цветочный Горшок</div>
+                                <div className='product-title-block-emoji'></div>
+                            </div>
+                            <div className='product-description'>Основной продукт для крепкой эмоциональной связи с вашим любимцем. Эстетичный дизайн и продвинутые технологии... ахуенны</div>
                         </div>
-                        <div className='product-description'></div>
                     </div>
                     <div className='product'>
-                        <div className='product-photo'></div>
-                        <div className='product-title-block'>
-                            <div className='product-title'></div>
-                            <div className='product-title-block-emoji'></div>
+                        <div className='product-green-space'>
+                            <div className='product-photo'>
+                                <img className='product-photo-img' src={module} alt='module'/>
+                            </div>
+                            <div className='product-title-block'>
+                                <div className='product-title'></div>
+                                <div className='product-title-block-emoji'></div>
+                            </div>
+                            <div className='product-description'></div>
                         </div>
-                        <div className='product-description'></div>
                     </div>
                     <div className='product'>
-                        <div className='product-photo'></div>
-                        <div className='product-title-block'>
-                            <div className='product-title'></div>
-                            <div className='product-title-block-emoji'></div>
+                        <div className='product-green-space'>
+                            <div className='product-photo'>
+                                <img className='product-photo-img' src={mockup} alt='mockup' />
+                            </div>
+                            <div className='product-title-block'>
+                                <div className='product-title'></div>
+                                <div className='product-title-block-emoji'></div>
+                            </div>
+                            <div className='product-description'></div>
                         </div>
-                        <div className='product-description'></div>
                     </div>
                 </div>
             </div>
