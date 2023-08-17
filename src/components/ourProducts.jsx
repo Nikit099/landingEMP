@@ -33,10 +33,10 @@ const OurProducts = () => {
                                 <img className='product-photo-img' src={module} alt='module'/>
                             </div>
                             <div className='product-title-block'>
-                                <div className='product-title'></div>
+                                <div className='product-title'>Эмоциональный Цветочный Модуль</div>
                                 <div className='product-title-block-emoji'></div>
                             </div>
-                            <div className='product-description'></div>
+                            <div className='product-description'>Цветочный модуль простое решение в уходе за растением. Он подселяется к вашему питомцу, шпионит за ним, рассказывая вам о том, как у него дела. </div>
                         </div>
                     </div>
                     <div className='product'>
@@ -45,10 +45,10 @@ const OurProducts = () => {
                                 <img className='product-photo-img' src={mockup} alt='mockup' />
                             </div>
                             <div className='product-title-block'>
-                                <div className='product-title'></div>
+                                <div className='product-title'>Мобильное WEB приложение</div>
                                 <div className='product-title-block-emoji'></div>
                             </div>
-                            <div className='product-description'></div>
+                            <div className='product-description'>Мобильное WEB приложение не займет лишнее место на вашем телефоне и позволит всегда быть в курсе последних событий вашего питомца из любого уголка планеты.</div>
                         </div>
                     </div>
                 </div>

@@ -24,11 +24,15 @@
 }
 
 .our-products-main {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: start;
+
+    max-width: 1440px;
     min-width: 1440px;
     min-height: 1110px;
 
-    padding-left: 93px;
-    padding-right: 93px;
     margin-top: 123px;
     margin-left: auto;
     margin-right: auto;
@@ -49,6 +53,8 @@
 }
 
 .subtitle {
+    margin-top: 21px;
+
     color: #7ABF8B;
     font-family: "Judson-regular";
     font-size: 16px;
@@ -60,6 +66,8 @@
 .products {
     display: flex;
     flex-direction: row;
+
+    justify-content: space-between;
 }
 
 .product {
@@ -67,6 +75,8 @@
 }
 
 .product-green-space {
+    margin-top: 190px;
+
     display: flex;
     flex-direction: column;
 
@@ -90,6 +100,8 @@
     width: 298px;
     height: 50px;
 
+    margin-left: 27px;
+
     font-family: "Montserrat-bold";
     font-size: 22px;
     font-style: normal;
@@ -109,6 +121,9 @@
 .product-description {
     width: 310px;
     height: 98px;
+
+    margin-top: 30px;
+    margin-left: 27px;
 
     color: #4E8C59;
     font-family: "Inter-regular";
