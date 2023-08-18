@@ -39,6 +39,8 @@
 
     margin-left: auto;
     margin-right: auto;
+
+    position: relative;
 }
 
 .header-left {
@@ -66,14 +68,14 @@
     letter-spacing: -4.32px;
 }
 
-.header-left-posttitle {
+.header-left-subtitle {
     width: 544px;
     height: 88px;
 
     margin-top: 71px;
 }
 
-.header-left-posttitle-span {
+.header-left-subtitle-span {
     color: #FFF;
     font-family: "Judson-regular";
     font-size: 16px;
@@ -82,12 +84,12 @@
     line-height: 124%; /* 19.84px */
 }
 
-.header-left-space-button {
+.header-left-button-block {
     margin-top: 110px;
     margin-bottom: 168px;
 }
 
-.header-left-button {
+.header-left-button-itself {
     
 
     border-radius: 37px;
@@ -107,35 +109,35 @@
 .header-right {
 }
 
-.img-ivy {
+.header-right-img-ivy {
     position: absolute;
     right: 100px;
     bottom: 237px;
     z-index: 1;
 }
 
-.img-firecracker {
+.header-right-img-firecracker {
     position: absolute;
     left: 1350px;
     top: 190px;
     z-index: 0;
 }
 
-.img-orange-dimond {
+.header-right-img-orange-dimond {
     position: absolute;
     top: 105px;
     left: 860px;
     z-index: 0;
 }
 
-.img-sparles {
+.header-right-img-sparles {
     position: absolute;
     top: 510px;
     left: 920px;
     z-index: 0;
 }
 
-.img-savoring-food {
+.header-right-img-savoring-food {
     position: absolute;
     height: 198px;
     width: 198px;

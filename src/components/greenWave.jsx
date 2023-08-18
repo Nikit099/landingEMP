@@ -17,48 +17,50 @@ const GreenWave = () => {
     return (
         <div>
             <div className='gW'>
-            <img className='gW-img' src={greenWave} alt='greenWave'></img>
-                <div className='central'>
-                    <img className='img-pleadingFace' src={pleadingFace}/>
-                    <img className='img-alien' src={alien}/>
-                    <img className='img-confidentSmile' src={confidentSmile}/>
-                    <img className='img-cowboy' src={cowboy}/>
-                    <img className='img-crazy' src={crazy}/>
-                    <img className='img-hug' src={hug}/>
-                    <img className='img-glasesMustage' src={glasesMustage}/>
-                    <div className='central-title'>
+            <img className='gW-green-wave-img-svg-itself' src={greenWave} alt='greenWave'></img>
+                <div className='gW-central'>
+                    
+                    <img className='gW-central-img-pleadingFace' src={pleadingFace}/>
+                    <img className='gW-central-img-alien' src={alien}/>
+                    <img className='gW-central-img-confidentSmile' src={confidentSmile}/>
+                    <img className='gW-central-img-cowboy' src={cowboy}/>
+                    <img className='gW-central-img-crazy' src={crazy}/>
+                    <img className='gW-central-img-hug' src={hug}/>
+                    <img className='gW-central-img-glasesMustage' src={glasesMustage}/>
+                    
+                    <div className='gW-central-title'>
 Большой набор реакций!
                     </div>
-                    <div className='central-reactions'>
-                        <div className='central-reaction-block'>
+                    <div className='gW-central-emojies'>
+                        <div className='gW-central-emojies-block'>
                             <div>
-                                <img className='block-emoji' src={heat} alt='emoji'></img>
+                                <img className='gW-central-emojies-block-emoji' src={heat} alt='emoji'></img>
                             </div>
-                            <div className='block-span'>
+                            <div className='gW-central-emojies-block-span'>
                                 Жара
                             </div>
                         </div>
-                        <div className='central-reaction-block'>
+                        <div className='gW-central-emojies-block'>
                             <div>
-                                <img className='block-emoji' src={loveEyes} alt='emoji'></img>
+                                <img className='gW-central-emojies-block-emoji' src={loveEyes} alt='emoji'></img>
                             </div>
-                            <div className='block-span'>
+                            <div className='gW-central-emojies-block-span'>
                                 Радость
                             </div>
                         </div>
-                        <div className='central-reaction-block'>
+                        <div className='gW-central-emojies-block'>
                             <div>
-                                <img className='block-emoji' src={illness} alt='emoji'></img>
+                                <img className='gW-central-emojies-block-emoji' src={illness} alt='emoji'></img>
                             </div>
-                            <div className='block-span'>
+                            <div className='gW-central-emojies-block-span'>
                                 Холод
                             </div>
                         </div>
-                        <div className='central-reaction-block'>
+                        <div className='gW-central-emojies-block'>
                             <div>
-                                <img className='block-emoji' src={sunglases} alt='emoji'></img>
+                                <img className='gW-central-emojies-block-emoji' src={sunglases} alt='emoji'></img>
                             </div>
-                            <div className='block-span'>
+                            <div className='gW-central-emojies-block-span'>
                                 Солнечно
                             </div>
                         </div>

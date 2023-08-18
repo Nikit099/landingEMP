@@ -4,23 +4,39 @@ import './css/footer.css';
 const Footer = () => {
     return (
         <div>
-            <div className='main-footer'>
-                <div className='elements-block'>
-                    <div className='text-block'>
-                        <div className='title'>ДЛЯ СВЯЗИ</div>
-                        <div className='subtitle'>https://t.me/a_mew</div>
+            <div className='footer'>
+                <div className='footer-elements-block'>
+                    <div className='footer-elements-block-text-block'>
+                        <div className='footer-elements-block-text-block-title'>
+                            ДЛЯ СВЯЗИ
+                        </div>
+                        <div className='footer-elements-block-text-block-subtitle'>
+                            https://t.me/a_mew
+                        </div>
                     </div>
-                    <div className='text-block'>
-                        <div className='title'>ДЛЯ СВЯЗИ</div>
-                        <div className='subtitle'>https://t.me/a_mew</div>
+                    <div className='footer-elements-block-text-block'>
+                        <div className='footer-elements-block-text-block-title'>
+                            ДЛЯ СВЯЗИ
+                        </div>
+                        <div className='footer-elements-block-text-block-subtitle'>
+                            https://t.me/a_mew
+                        </div>
                     </div>
-                    <div className='text-block'>
-                        <div className='title'>ДЛЯ СВЯЗИ</div>
-                        <div className='subtitle'>https://t.me/a_mew</div>
+                    <div className='footer-elements-block-text-block'>
+                        <div className='footer-elements-block-text-block-title'>
+                            ДЛЯ СВЯЗИ
+                        </div>
+                        <div className='footer-elements-block-text-block-subtitle'>
+                            https://t.me/a_mew
+                        </div>
                     </div>
-                    <div className='text-block'>
-                        <div className='title'>ДЛЯ СВЯЗИ</div>
-                        <div className='subtitle'>https://t.me/a_mew</div>
+                    <div className='footer-elements-block-text-block'>
+                        <div className='footer-elements-block-text-block-title'>
+                            ДЛЯ СВЯЗИ
+                        </div>
+                        <div className='footer-elements-block-text-block-subtitle'>
+                            https://t.me/a_mew
+                        </div>
                     </div>
                 </div>
             </div>

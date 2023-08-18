@@ -23,7 +23,7 @@
     src: url('../fonts/Inter-Regular.ttf');
 }
 
-.our-products-main {
+.oP {
     display: flex;
     flex-direction: column;
 
@@ -38,11 +38,11 @@
     margin-right: auto;
 }
 
-.title-block {
+.oP-title-block {
 
 }
 
-.title {
+.oP-title-block-title {
     color: #7ABF8B;
     font-family: "Montserrat-bold";
     font-size: 64px;
@@ -52,7 +52,7 @@
     letter-spacing: -2.88px;
 }
 
-.subtitle {
+.oP-title-block-subtitle {
     margin-top: 21px;
 
     color: #7ABF8B;
@@ -63,18 +63,18 @@
     line-height: 135.5%; /* 21.68px */
 }
 
-.products {
+.oP-products {
     display: flex;
     flex-direction: row;
 
     justify-content: space-between;
 }
 
-.product {
+.oP-products-product {
 
 }
 
-.product-green-space {
+.oP-products-product-green-space {
     margin-top: 190px;
 
     display: flex;
@@ -87,16 +87,16 @@
     background: linear-gradient(318deg, #C7F0CE 0%, #E6F1EB 100%);
 }
 
-.product-photo {
+.oP-products-product-photo {
 
 }
 
-.product-title-block {
+.oP-products-product-title-block {
     display: flex;
     flex-direction: row;
 }
 
-.product-title {
+.oP-products-product-title-block-title {
     width: 298px;
     height: 50px;
 
@@ -114,11 +114,11 @@
     -webkit-text-fill-color: transparent;
 }
 
-.product-title-block-emoji {
+.oP-products-product-title-block-emoji {
 
 }
 
-.product-description {
+.oP-products-product-description {
     width: 310px;
     height: 98px;
 

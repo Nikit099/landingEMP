@@ -32,7 +32,7 @@
     margin-right: auto;
 }
 
-.gW-img {
+.gW-green-wave-img-svg-itself {
     position: relative;
     height: 867px;
 
@@ -40,7 +40,7 @@
     z-index: -1;
 }
 
-.central {
+.gW-central {
     position: absolute;
     display: flex;
     flex-direction: column;
@@ -52,7 +52,49 @@
     width: 1000px;
 }
 
-.central-title {
+.gW-central-img-pleadingFace {
+    position: absolute;
+    height: 175px;
+    width: 175px;
+}
+
+.gW-central-img-alien {
+    position: absolute;
+    height: 175px;
+    width: 175px;
+}
+
+.gW-central-img-confidentSmile {
+    position: absolute;
+    height: 175px;
+    width: 175px;
+}
+
+.gW-central-img-cowboy {
+    position: absolute;
+    height: 175px;
+    width: 175px;
+}
+
+.gW-central-img-crazy {
+    position: absolute;
+    height: 175px;
+    width: 175px;
+}
+
+.gW-central-img-hug {
+    position: absolute;
+    height: 175px;
+    width: 175px;
+}
+
+.gW-central-img-glasesMustage {
+    position: absolute;
+    height: 175px;
+    width: 175px;
+}
+
+.gW-central-title {
     width: 933.333px;
     height: 66.133px;
     transform: rotate(-2.341deg);
@@ -69,7 +111,7 @@
     padding-left: 90px;
 }
 
-.central-reactions {
+.gW-central-emojies {
     position: relative;
     display: flex;
     flex-direction: row;
@@ -78,7 +120,7 @@
     justify-content: space-between;
 }
 
-.central-reaction-block {
+.gW-central-emojies-block {
     height: 175px;
     width: 175px;
 
@@ -89,12 +131,12 @@
     align-content: center;
 }
 
-.block-emoji {
+.gW-central-emojies-block-emoji {
     height: 175px;
     width: 175px;
 }
 
-.block-span {
+.gW-central-emojies-block-span {
     color: #FFF;
     font-family: "Montserrat-bold";
     font-size: 20px;
@@ -105,48 +147,6 @@
     display: flex;
     justify-content: center;
 
-}
-
-.img-pleadingFace {
-    position: absolute;
-    height: 175px;
-    width: 175px;
-}
-
-.img-alien {
-    position: absolute;
-    height: 175px;
-    width: 175px;
-}
-
-.img-confidentSmile {
-    position: absolute;
-    height: 175px;
-    width: 175px;
-}
-
-.img-cowboy {
-    position: absolute;
-    height: 175px;
-    width: 175px;
-}
-
-.img-crazy {
-    position: absolute;
-    height: 175px;
-    width: 175px;
-}
-
-.img-hug {
-    position: absolute;
-    height: 175px;
-    width: 175px;
-}
-
-.img-glasesMustage {
-    position: absolute;
-    height: 175px;
-    width: 175px;
 }
 
 

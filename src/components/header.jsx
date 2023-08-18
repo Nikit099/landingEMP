@@ -16,8 +16,8 @@ const Header = () => {
                             Оживи свое растение!
                         </span>
                     </div>
-                    <div className='header-left-posttitle'>
-                        <span className='header-left-posttitle-span'>
+                    <div className='header-left-subtitle'>
+                        <span className='header-left-subtitle-span'>
                             Подари себе общение со 
                             своим комнатным растением 
                             через эмоциональную связь. 
@@ -29,16 +29,16 @@ const Header = () => {
                             Подари заботу своему растению!
                         </span>
                     </div>
-                    <div className='header-left-space-button'>
-                        <button className='header-left-button'>Давай купи!</button>
+                    <div className='header-left-button-block'>
+                        <button className='header-left-button-itself'>Давай купи!</button>
                     </div>
                 </div>
                 <div className='header-right'>
-                    <img className='img-ivy' src={ivyPhoto} alt='ivy'/>
-                    <img className='img-firecracker' src={firecracker} alt='savor'/>
-                    <img className='img-orange-dimond' src={orangeDimond} alt='savor'/>
-                    <img className='img-sparles' src={sparles} alt='savor'/>
-                    <img className='img-savoring-food' src={savoringFood} alt='savor'/>
+                    <img className='header-right-img-ivy' src={ivyPhoto} alt='ivy'/>
+                    <img className='header-right-img-firecracker' src={firecracker} alt='firecracker'/>
+                    <img className='header-right-img-orange-dimond' src={orangeDimond} alt='orange-dimond'/>
+                    <img className='header-right-img-sparles' src={sparles} alt='sparles'/>
+                    <img className='header-right-img-savoring-food' src={savoringFood} alt='savor'/>
                 </div>
             </div>
         </div>
