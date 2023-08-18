@@ -24,6 +24,8 @@
 }
 
 .gW {
+    position: relative;
+
     min-width: 1440px;
     display: flex;
     justify-content: center;
@@ -40,58 +42,80 @@
     z-index: -1;
 }
 
+.gW-img-pleadingFace {
+    position: absolute;
+    height: 175px;
+    width: 175px;
+
+    top: 100px;
+    left: 100px;
+}
+
+.gW-img-alien {
+    position: absolute;
+    height: 175px;
+    width: 175px;
+
+    top: 0px;
+    left: 0px;
+}
+
+.gW-img-confidentSmile {
+    position: absolute;
+    height: 175px;
+    width: 175px;
+
+    top: 0px;
+    left: 0px;
+}
+
+.gW-img-cowboy {
+    position: absolute;
+    height: 175px;
+    width: 175px;
+
+    top: 0px;
+    left: 0px;
+}
+
+.gW-img-crazy {
+    position: absolute;
+    height: 175px;
+    width: 175px;
+
+    top: 0px;
+    left: 0px;
+}
+
+.gW-img-hug {
+    position: absolute;
+    height: 175px;
+    width: 175px;
+
+
+    top: 0px;
+    left: 0px;
+}
+
+.gW-img-glasesMustage {
+    position: absolute;
+    height: 175px;
+    width: 175px;
+
+    top: 0px;
+    left: 0px;
+}
+
 .gW-central {
     position: absolute;
     display: flex;
     flex-direction: column;
     
-    top: 1440px;
+    top: 275px;
     
     margin: 0 auto;
 
     width: 1000px;
-}
-
-.gW-central-img-pleadingFace {
-    position: absolute;
-    height: 175px;
-    width: 175px;
-}
-
-.gW-central-img-alien {
-    position: absolute;
-    height: 175px;
-    width: 175px;
-}
-
-.gW-central-img-confidentSmile {
-    position: absolute;
-    height: 175px;
-    width: 175px;
-}
-
-.gW-central-img-cowboy {
-    position: absolute;
-    height: 175px;
-    width: 175px;
-}
-
-.gW-central-img-crazy {
-    position: absolute;
-    height: 175px;
-    width: 175px;
-}
-
-.gW-central-img-hug {
-    position: absolute;
-    height: 175px;
-    width: 175px;
-}
-
-.gW-central-img-glasesMustage {
-    position: absolute;
-    height: 175px;
-    width: 175px;
 }
 
 .gW-central-title {

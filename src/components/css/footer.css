@@ -23,7 +23,7 @@
     src: url('../fonts/Inter-Regular.ttf');
 }
 
-.main-footer {
+.footer {
     display: flex;
 
     justify-content: center;
@@ -38,5 +38,21 @@
 
     background: #FAF9F9;
     box-shadow: 0px 3px 20px 0px rgba(151, 151, 151, 0.25);
+}
+
+.footer-elements-block {
+
+}
+
+.footer-elements-block-text-block {
+
+}
+
+.footer-elements-block-text-block-title {
+
+}
+
+.footer-elements-block-text-block-subtitle {
+    
 }
 

@@ -17,16 +17,15 @@ const GreenWave = () => {
     return (
         <div>
             <div className='gW'>
-            <img className='gW-green-wave-img-svg-itself' src={greenWave} alt='greenWave'></img>
-                <div className='gW-central'>
-                    
-                    <img className='gW-central-img-pleadingFace' src={pleadingFace}/>
-                    <img className='gW-central-img-alien' src={alien}/>
-                    <img className='gW-central-img-confidentSmile' src={confidentSmile}/>
-                    <img className='gW-central-img-cowboy' src={cowboy}/>
-                    <img className='gW-central-img-crazy' src={crazy}/>
-                    <img className='gW-central-img-hug' src={hug}/>
-                    <img className='gW-central-img-glasesMustage' src={glasesMustage}/>
+                <img className='gW-green-wave-img-svg-itself' src={greenWave} alt='greenWave'></img>
+                <img className='gW-img-pleadingFace' src={pleadingFace}/>
+                <img className='gW-img-alien' src={alien}/>
+                <img className='gW-img-confidentSmile' src={confidentSmile}/>
+                <img className='gW-img-cowboy' src={cowboy}/>
+                <img className='gW-img-crazy' src={crazy}/>
+                <img className='gW-img-hug' src={hug}/>
+                <img className='gW-img-glasesMustage' src={glasesMustage}/>
+                <div className='gW-central'>    
                     
                     <div className='gW-central-title'>
 Большой набор реакций!

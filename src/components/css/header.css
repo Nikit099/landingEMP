@@ -77,7 +77,7 @@
 
 .header-left-subtitle-span {
     color: #FFF;
-    font-family: "Judson-regular";
+    font-family: "Inter-regular";
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -111,29 +111,37 @@
 
 .header-right-img-ivy {
     position: absolute;
-    right: 100px;
-    bottom: 237px;
+
+    top: -7px;
+    left: 816px;
+
     z-index: 1;
 }
 
 .header-right-img-firecracker {
     position: absolute;
-    left: 1350px;
-    top: 190px;
+
+    top: 150px;
+    left: 1280px;
+
     z-index: 0;
 }
 
 .header-right-img-orange-dimond {
     position: absolute;
-    top: 105px;
-    left: 860px;
+
+    top: 110px;
+    left: 780px;
+
     z-index: 0;
 }
 
 .header-right-img-sparles {
     position: absolute;
-    top: 510px;
-    left: 920px;
+
+    top: 515px;
+    left: 850px;
+
     z-index: 0;
 }
 
@@ -141,7 +149,9 @@
     position: absolute;
     height: 198px;
     width: 198px;
-    top: 525px;
-    right: 150px;
+
+    top: 515px;
+    left: 1190px;
+
     z-index: 2;
 }
