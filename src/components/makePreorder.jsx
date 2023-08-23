@@ -1,4 +1,8 @@
 import React from 'react';
+import './css/makePreorder.css';
+import nestingDolls from './media/nesting-dolls.svg';
+import ivyStraingMakePreorder from './media/ivy-make-preorder.svg';
+import moduleMakePreorder from './media/module.svg';
 
 const MakePreorder = ({order, setOrder}) => {
     return (
@@ -18,15 +22,32 @@ const MakePreorder = ({order, setOrder}) => {
                     </div>
                     <div className='mP-main-left-inputs-block'>
                         <div className='mP-main-left-inputs-block-email'>
-                            <input className='mP-main-left-inputs-block-email-itself'></input>
+                            <input className='mP-main-left-inputs-block-email-itself'
+                                   placeholder='Введите Email'>
+
+                            </input>
                         </div>
                         <div className='mP-main-left-inputs-block-tg'>
-                            <input className='mP-main-left-inputs-block-tg-itself'></input>
+                            <input className='mP-main-left-inputs-block-tg-itself'
+                                   placeholder='Введите Telegram'>
+                                
+                            </input>
                         </div>
                     </div>
                 </div>
                 <div className='mP-main-right'>
-
+                    <img className='mP-main-right-img-ivy' 
+                         src={ivyStraingMakePreorder} 
+                         alt='ivy'
+                    />
+                    <img className='mP-main-right-img-module' 
+                         src={moduleMakePreorder}
+                         alt='module'
+                    />
+                    <img className='mP-main-right-img-dolle'
+                         src={nestingDolls}
+                         alt='dolle' 
+                    />                   
                 </div>
             </div>
         </div>
