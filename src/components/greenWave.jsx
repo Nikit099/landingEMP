@@ -18,13 +18,15 @@ const GreenWave = () => {
         <div>
             <div className='gW'>
                 <img className='gW-green-wave-img-svg-itself' src={greenWave} alt='greenWave'></img>
-                <img className='gW-img-pleadingFace' src={pleadingFace}/>
-                <img className='gW-img-alien' src={alien}/>
-                <img className='gW-img-confidentSmile' src={confidentSmile}/>
-                <img className='gW-img-cowboy' src={cowboy}/>
-                <img className='gW-img-crazy' src={crazy}/>
-                <img className='gW-img-hug' src={hug}/>
-                <img className='gW-img-glasesMustage' src={glasesMustage}/>
+                <div className='gW-corner-imges'>
+                    <img className='gW-corner-imges-img-pleadingFace' src={pleadingFace}/>
+                    <img className='gW-corner-imges-img-alien' src={alien}/>
+                    <img className='gW-corner-imges-img-confidentSmile' src={confidentSmile}/>
+                    <img className='gW-corner-imges-img-cowboy' src={cowboy}/>
+                    <img className='gW-corner-imges-img-crazy' src={crazy}/>
+                    <img className='gW-corner-imges-img-hug' src={hug}/>
+                    <img className='gW-corner-imges-img-glasesMustage' src={glasesMustage}/>
+                </div>
                 <div className='gW-central'>    
                     
                     <div className='gW-central-title'>

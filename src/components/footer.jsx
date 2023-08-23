@@ -3,7 +3,7 @@ import './css/footer.css';
 
 const Footer = () => {
     return (
-        <div>
+        <div className='FOOTER-MAIN'>
             <div className='footer'>
                 <div className='footer-elements-block'>
                     <div className='footer-elements-block-text-block'>
@@ -14,6 +14,7 @@ const Footer = () => {
                             https://t.me/a_mew
                         </div>
                     </div>
+                    <div className='footer-elements-block-text-vertical-line'></div>
                     <div className='footer-elements-block-text-block'>
                         <div className='footer-elements-block-text-block-title'>
                             ДЛЯ СВЯЗИ
@@ -22,6 +23,7 @@ const Footer = () => {
                             https://t.me/a_mew
                         </div>
                     </div>
+                    <div className='footer-elements-block-text-vertical-line'></div>
                     <div className='footer-elements-block-text-block'>
                         <div className='footer-elements-block-text-block-title'>
                             ДЛЯ СВЯЗИ
@@ -30,6 +32,7 @@ const Footer = () => {
                             https://t.me/a_mew
                         </div>
                     </div>
+                    <div className='footer-elements-block-text-vertical-line'></div>
                     <div className='footer-elements-block-text-block'>
                         <div className='footer-elements-block-text-block-title'>
                             ДЛЯ СВЯЗИ

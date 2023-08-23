@@ -42,68 +42,84 @@
     z-index: -1;
 }
 
-.gW-img-pleadingFace {
-    position: absolute;
-    height: 175px;
-    width: 175px;
-
-    top: 100px;
-    left: 100px;
+.gW-corner-imges {
+    position: relative;
 }
 
-.gW-img-alien {
+.gW-corner-imges-img-pleadingFace {
     position: absolute;
-    height: 175px;
-    width: 175px;
+    width: 168.533px;
+    height: 168.533px;
+    transform: rotate(-19.251deg);
 
-    top: 0px;
-    left: 0px;
+    top: 720px;
+    right: 40px;
 }
 
-.gW-img-confidentSmile {
+.gW-corner-imges-img-alien {
     position: absolute;
-    height: 175px;
-    width: 175px;
+    width: 199.764px;
+    height: 200.496px;
+
+    transform: rotate(-4.374deg);
+    /*box-shadow: 2px 2px 19px 0px rgba(0, 0, 0, 0.48);
+    проблема в том, что шадоу ложится квадратом, а не 
+    по контуру гифки*/
 
     top: 0px;
-    left: 0px;
+    right: 1232px;
 }
 
-.gW-img-cowboy {
+.gW-corner-imges-img-confidentSmile {
     position: absolute;
-    height: 175px;
-    width: 175px;
+    width: 159.42px;
+    height: 159.989px;
+    transform: rotate(-7.866deg);
+    flex-shrink: 0;
 
-    top: 0px;
-    left: 0px;
+    top: 130px;
+    right: 1330px;
+
+    z-index: 1;
 }
 
-.gW-img-crazy {
+.gW-corner-imges-img-cowboy {
     position: absolute;
-    height: 175px;
-    width: 175px;
+    width: 186.053px;
+    height: 186.591px;
+    transform: rotate(19.315deg);
 
-    top: 0px;
-    left: 0px;
+    top: 600px;
+    left: -115px;
 }
 
-.gW-img-hug {
+.gW-corner-imges-img-crazy {
     position: absolute;
-    height: 175px;
-    width: 175px;
+    width: 139.217px;
+    height: 139.733px;
 
-
-    top: 0px;
-    left: 0px;
+    top: 180px;
+    left: -100px;
 }
 
-.gW-img-glasesMustage {
+.gW-corner-imges-img-hug {
     position: absolute;
-    height: 175px;
-    width: 175px;
+    width: 129.653px;
+    height: 130.133px;
+
 
     top: 0px;
-    left: 0px;
+    right: 1115px;
+}
+
+.gW-corner-imges-img-glasesMustage {
+    position: absolute;
+    width: 150.924px;
+    height: 151.45px;
+    transform: rotate(10.025deg);
+    
+    top: 740px;
+    right: 1320px;
 }
 
 .gW-central {
