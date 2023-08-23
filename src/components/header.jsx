@@ -8,7 +8,7 @@ import orangeDimond from './media/large-orange-diamond.svg';
 
 const Header = () => {
     return (
-        <div>
+        <div className='HEADER-MAIN'>
             <div className='header'>
                 <div className='header-left'>
                     <div className='header-left-title'>

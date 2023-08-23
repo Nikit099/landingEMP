@@ -6,7 +6,7 @@ import happy from './media/happy-walking-plant.svg';
 
 const WhiteWave = () => {
     return (
-        <div>
+        <div className='whiteWave'>
             <div className='wW-main'>
                 <div className='wW-main-grid-1'>
                     <div className='wW-main-grid-img-1'>

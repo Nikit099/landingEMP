@@ -8,7 +8,7 @@ import mockup from './media/mockup-smartphone.svg';
 
 const OurProducts = () => {
     return (
-        <div>
+        <div className='ourProducts'>
             <div className='oP'>
                 <div className='oP-title-block'>
                     <div className='oP-title-block-title'>Наши продукты</div>

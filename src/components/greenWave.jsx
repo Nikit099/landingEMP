@@ -15,7 +15,7 @@ import greenWave from './media/green-wave.svg';
 
 const GreenWave = () => {
     return (
-        <div>
+        <div className='greenWave'>
             <div className='gW'>
                 <img className='gW-green-wave-img-svg-itself' src={greenWave} alt='greenWave'></img>
                 <div className='gW-corner-imges'>
