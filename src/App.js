@@ -2,7 +2,7 @@ import { useState } from "react";
 import "./index.css";
 import Header from "./components/header";
 import WhiteWave from "./components/whiteWave";
-import PreOrder from "./components/preOrder";
+import MakePreorder from "./components/makePreorder";
 import GreenWave from "./components/greenWave";
 import OurProducts from "./components/ourProducts";
 import Footer from "./components/footer";
@@ -20,7 +20,7 @@ function App() {
       <WhiteWave />
       <GreenWave />
       <OurProducts />
-      <PreOrder order={order} setOrder={setOrder} />
+      <MakePreorder order={order} setOrder={setOrder} />
       <Footer />
     </div>
   )
