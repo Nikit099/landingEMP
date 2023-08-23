@@ -38,8 +38,6 @@
     min-width: 1440px;
     max-width: 1440px;
 
-    background: #f3f2e9;
-
 }
 
 .mP-main-left {
@@ -152,8 +150,8 @@
 .mP-main-right-img-module {
     position: absolute;
 
-    top: 204px;
-    right: -840px;
+    top: -110px;
+    right: -550px;
 
     width: 345px;
     height: 512px;
@@ -162,7 +160,7 @@
 .mP-main-right-img-dolle {
     position: absolute;
 
-    top: 204px;
+    top: 150px;
     right: -760px;
 
     width: 231px;
