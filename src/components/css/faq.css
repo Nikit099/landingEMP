@@ -53,6 +53,17 @@
     position: relative;
 }
 
+.faq-main-circles-circle-1, .faq-main-circles-circle-2,
+.faq-main-circles-circle-3, .faq-main-circles-circle-4,
+.faq-main-circles-circle-5, .faq-main-circles-circle-6 {
+    color: #409C51;
+    font-family: "Montserrat-bold";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 115%; /* 25.3px */
+}
+
 .faq-main-circles-circle-1 {
     position: absolute;
 
