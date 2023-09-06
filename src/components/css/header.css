@@ -154,7 +154,7 @@
     z-index: 2;
 }
 
-@media screen and (426px < width < 769px) {
+@media screen and (425px <= width <= 769px) {
     .header-left-title-span  {
         font-size: 99px;
     }
@@ -163,5 +163,41 @@
     }
     .header-left-subtitle-span {
         font-size: 25px;
+    }
+}
+
+@media screen and (375px <= width < 425px) {
+    .header-left-title-span  {
+        font-size: 100px;
+    }
+    .header-left-button-itself {
+        font-size: 34px;
+    }
+    .header-left-subtitle-span {
+        font-size: 26px;
+    }
+}
+
+@media screen and (320px <= width < 375px) {
+    .header-left-title-span  {
+        font-size: 101px;
+    }
+    .header-left-button-itself {
+        font-size: 35px;
+    }
+    .header-left-subtitle-span {
+        font-size: 27px;
+    }
+}
+
+@media screen and (width < 320px) {
+    .header-left-title-span  {
+        font-size: 102px;
+    }
+    .header-left-button-itself {
+        font-size: 36px;
+    }
+    .header-left-subtitle-span {
+        font-size: 28px;
     }
 }

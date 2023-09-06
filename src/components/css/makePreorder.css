@@ -165,7 +165,7 @@
     height: 231px;
 }
 
-@media screen and (426px < width < 769px) {
+@media screen and (425px <= width <= 769px) {
     .mP-main-left-title-block-title {
         font-size: 67px;
     }
@@ -180,6 +180,49 @@
     }
 }
 
+@media screen and (375px <= width < 425px) {
+    .mP-main-left-title-block-title {
+        font-size: 67px;
+    }
+    .mP-main-left-title-block-subtitle {
+        font-size: 25px;
+    }
+    .mP-main-left-inputs-block-email-itself,
+    .mP-main-left-inputs-block-email-itself::placeholder,
+    .mP-main-left-inputs-block-tg-itself,
+    .mP-main-left-inputs-block-tg-itself::placeholder {
+        font-size: 25px;
+    }
+}
 
+@media screen and (320px <= width < 375px) {
+    .mP-main-left-title-block-title {
+        font-size: 68px;
+    }
+    .mP-main-left-title-block-subtitle {
+        font-size: 26px;
+    }
+    .mP-main-left-inputs-block-email-itself,
+    .mP-main-left-inputs-block-email-itself::placeholder,
+    .mP-main-left-inputs-block-tg-itself,
+    .mP-main-left-inputs-block-tg-itself::placeholder {
+        font-size: 26px;
+    }
+}
+
+@media screen and (width < 320px) {
+    .mP-main-left-title-block-title {
+        font-size: 69px;
+    }
+    .mP-main-left-title-block-subtitle {
+        font-size: 27px;
+    }
+    .mP-main-left-inputs-block-email-itself,
+    .mP-main-left-inputs-block-email-itself::placeholder,
+    .mP-main-left-inputs-block-tg-itself,
+    .mP-main-left-inputs-block-tg-itself::placeholder {
+        font-size: 27px;
+    }
+}
 
 

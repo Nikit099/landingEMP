@@ -149,8 +149,26 @@
     box-shadow: 4px 4px 17px 0px rgba(0, 0, 0, 0.25);
 }
 
-@media screen and (426px < width < 769px) {
+@media screen and (425px <= width <= 769px) {
     .faq-main-title {
         font-size: 67px;
+    }
+}
+
+@media screen and (375px <= width < 425px) {
+    .faq-main-title {
+        font-size: 68px;
+    }
+}
+
+@media screen and (320px <= width < 375px) {
+    .faq-main-title {
+        font-size: 69px;
+    }
+}
+
+@media screen and (width < 320px) {
+    .faq-main-title {
+        font-size: 70px;
     }
 }
