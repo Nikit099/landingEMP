@@ -1,0 +1,234 @@
+@font-face {
+    font-family: "Montserrat-bold";
+    src: url('../fonts/Montserrat-Bold.ttf');
+}
+
+@font-face {
+    font-family: "Judson-regular";
+    src: url('../fonts/Judson-Regular.ttf');
+}
+
+@font-face {
+    font-family: "Inter-bold";
+    src: url('../fonts/Inter-Bold.ttf');
+}
+
+@font-face {
+    font-family: "Inter-semibold";
+    src: url('../fonts/Inter-SemiBold.ttf');
+}
+
+@font-face {
+    font-family: "Inter-regular";
+    src: url('../fonts/Inter-Regular.ttf');
+}
+
+.gW {
+    position: relative;
+
+    min-width: 1440px;
+    display: flex;
+    justify-content: center;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.gW-green-wave-img-svg-itself {
+    position: relative;
+    height: 867px;
+
+
+    z-index: -1;
+}
+
+.gW-corner-imges {
+    position: relative;
+}
+
+.gW-corner-imges-img-pleadingFace {
+    position: absolute;
+    width: 168.533px;
+    height: 168.533px;
+    transform: rotate(-19.251deg);
+
+    top: 720px;
+    right: 40px;
+}
+
+.gW-corner-imges-img-alien {
+    position: absolute;
+    width: 199.764px;
+    height: 200.496px;
+
+    transform: rotate(-4.374deg);
+    /*box-shadow: 2px 2px 19px 0px rgba(0, 0, 0, 0.48);
+    проблема в том, что шадоу ложится квадратом, а не 
+    по контуру гифки*/
+
+    top: 0px;
+    right: 1232px;
+}
+
+.gW-corner-imges-img-confidentSmile {
+    position: absolute;
+    width: 159.42px;
+    height: 159.989px;
+    transform: rotate(-7.866deg);
+    flex-shrink: 0;
+
+    top: 130px;
+    right: 1330px;
+
+    z-index: 1;
+}
+
+.gW-corner-imges-img-cowboy {
+    position: absolute;
+    width: 186.053px;
+    height: 186.591px;
+    transform: rotate(19.315deg);
+
+    top: 600px;
+    left: -115px;
+}
+
+.gW-corner-imges-img-crazy {
+    position: absolute;
+    width: 139.217px;
+    height: 139.733px;
+
+    top: 180px;
+    left: -100px;
+}
+
+.gW-corner-imges-img-hug {
+    position: absolute;
+    width: 129.653px;
+    height: 130.133px;
+
+
+    top: 0px;
+    right: 1115px;
+}
+
+.gW-corner-imges-img-glasesMustage {
+    position: absolute;
+    width: 150.924px;
+    height: 151.45px;
+    transform: rotate(10.025deg);
+    
+    top: 740px;
+    right: 1320px;
+}
+
+@media screen and (width < 1450px) {
+    .gW-corner-imges-img-cowboy,
+    .gW-corner-imges-img-crazy {
+        display: none;
+    }
+}
+
+.gW-central {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    
+    top: 275px;
+    
+    margin: 0 auto;
+
+    width: 1000px;
+}
+
+.gW-central-title {
+    width: 933.333px;
+    height: 66.133px;
+    transform: rotate(-2.341deg);
+
+    color: #FFF;
+    font-family: "Montserrat-bold";
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 81.7%; /* 52.288px */
+    letter-spacing: -2.88px;
+
+    padding-bottom: 60px;
+    padding-left: 90px;
+}
+
+.gW-central-emojies {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    z-index: 1;
+
+    justify-content: space-between;
+}
+
+.gW-central-emojies-block {
+    height: 175px;
+    width: 175px;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-content: center;
+}
+
+.gW-central-emojies-block-emoji {
+    height: 175px;
+    width: 175px;
+}
+
+.gW-central-emojies-block-span {
+    color: #FFF;
+    font-family: "Montserrat-bold";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 124%; /* 24.8px */
+
+    display: flex;
+    justify-content: center;
+
+}
+
+@media screen and (425px <= width <= 769px) {
+    .gW-central-title {
+        font-size: 67px;
+    }
+    .gW-central-emojies-block-span {
+        font-size: 31px;
+    }
+}
+
+@media screen and (375px <= width < 425px) {
+    .gW-central-title {
+        font-size: 68px;
+    }
+    .gW-central-emojies-block-span {
+        font-size: 32px;
+    }
+}
+
+@media screen and (320px <= width < 375px) {
+    .gW-central-title {
+        font-size: 69px;
+    }
+    .gW-central-emojies-block-span {
+        font-size: 33px;
+    }
+}
+
+@media screen and (width < 320px) {
+    .gW-central-title {
+        font-size: 70px;
+    }
+    .gW-central-emojies-block-span {
+        font-size: 34px;
+    }
+}
+

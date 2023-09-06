@@ -1,0 +1,174 @@
+@font-face {
+    font-family: "Montserrat-bold";
+    src: url('../fonts/Montserrat-Bold.ttf');
+}
+
+@font-face {
+    font-family: "Judson-regular";
+    src: url('../fonts/Judson-Regular.ttf');
+}
+
+@font-face {
+    font-family: "Inter-bold";
+    src: url('../fonts/Inter-Bold.ttf');
+}
+
+@font-face {
+    font-family: "Inter-semibold";
+    src: url('../fonts/Inter-SemiBold.ttf');
+}
+
+@font-face {
+    font-family: "Inter-regular";
+    src: url('../fonts/Inter-Regular.ttf');
+}
+
+.faq-main {
+    display: flex;
+
+    flex-direction: column;
+
+    min-width: 1440px;
+    max-width: 1440px;
+    max-height: 955px;
+    min-height: 955px;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.faq-main-title {
+    align-self: center;
+
+    color: #7ABF8B;
+    font-family: "Montserrat-bold";
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 81.7%; /* 52.288px */
+    letter-spacing: -2.88px;
+}
+
+.faq-main-circles {
+    position: relative;
+}
+
+.faq-main-circles-circle-1, .faq-main-circles-circle-2,
+.faq-main-circles-circle-3, .faq-main-circles-circle-4,
+.faq-main-circles-circle-5, .faq-main-circles-circle-6 {
+    color: #409C51;
+    font-family: "Montserrat-bold";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 115%; /* 25.3px */
+}
+
+.faq-main-circles-circle-1 {
+    position: absolute;
+
+    top: 115px;
+    left: 242px;
+
+    width: 256px;
+    height: 256px;
+
+    border-radius: 142px;
+    background: linear-gradient(318deg, #C7F0CE 0%, #E6F1EB 100%);
+    box-shadow: 4px 4px 17px 0px rgba(0, 0, 0, 0.25);
+}
+
+.faq-main-circles-circle-2 {
+    position: absolute;
+
+    width: 216px;
+    height: 216px;
+
+    top: 101px;
+    left: 845px;
+
+    border-radius: 142px;
+    background: linear-gradient(318deg, #C7F0CE 0%, #E6F1EB 100%);
+    box-shadow: 4px 4px 17px 0px rgba(0, 0, 0, 0.25);
+}
+
+.faq-main-circles-circle-3 {
+    position: absolute;
+
+    top: 317px;
+    left: 490px;
+
+    width: 303px;
+    height: 303px;
+
+    border-radius: 168px;
+    background: linear-gradient(318deg, #C7F0CE 0%, #E6F1EB 100%);
+    box-shadow: 4px 4px 17px 0px rgba(0, 0, 0, 0.25);
+}
+
+.faq-main-circles-circle-4 {
+    position: absolute;
+
+    top: 371px;
+    left: 845px;
+
+    width: 416px;
+    height: 417px;
+
+    border-radius: 231px;
+    background: radial-gradient(393.37% 69.85% at 37.45% 26.62%, #D3F9E3 0%, #63D077 100%);
+    box-shadow: 4px 4px 17px 0px rgba(0, 0, 0, 0.25);
+    filter: blur(2px);
+}
+
+.faq-main-circles-circle-5 {
+    position: absolute;
+
+    top: 541px;
+    left: 227px;
+
+    width: 247px;
+    height: 247px;
+
+    border-radius: 149.5px;
+    background: linear-gradient(318deg, #C7F0CE 0%, #E6F1EB 100%);
+    box-shadow: 4px 4px 17px 0px rgba(0, 0, 0, 0.25);
+}
+
+.faq-main-circles-circle-6 {
+    position: absolute;
+
+    top: 703px;
+    left: 623px;
+
+    width: 197px;
+    height: 198px;
+
+    border-radius: 142px;
+    background: linear-gradient(318deg, #C7F0CE 0%, #E6F1EB 100%);
+    box-shadow: 4px 4px 17px 0px rgba(0, 0, 0, 0.25);
+}
+
+@media screen and (425px <= width <= 769px) {
+    .faq-main-title {
+        font-size: 67px;
+    }
+}
+
+@media screen and (375px <= width < 425px) {
+    .faq-main-title {
+        font-size: 68px;
+    }
+}
+
+@media screen and (320px <= width < 375px) {
+    .faq-main-title {
+        font-size: 69px;
+    }
+}
+
+@media screen and (width < 320px) {
+    .faq-main-title {
+        font-size: 70px;
+    }
+}

@@ -1,0 +1,136 @@
+@font-face {
+    font-family: "Montserrat-bold";
+    src: url('../fonts/Montserrat-Bold.ttf');
+}
+
+@font-face {
+    font-family: "Judson-regular";
+    src: url('../fonts/Judson-Regular.ttf');
+}
+
+@font-face {
+    font-family: "Inter-bold";
+    src: url('../fonts/Inter-Bold.ttf');
+}
+
+@font-face {
+    font-family: "Inter-semibold";
+    src: url('../fonts/Inter-SemiBold.ttf');
+}
+
+@font-face {
+    font-family: "Inter-regular";
+    src: url('../fonts/Inter-Regular.ttf');
+}
+
+.footer {
+    position: relative;
+
+    display: flex;
+
+    justify-content: center;
+
+    max-width: 1440px;
+    min-width: 1440px;
+    min-height: 248px;
+
+    margin-top: 260px;
+    margin-left: auto;
+    margin-right: auto;
+
+    background: #FAF9F9;
+    box-shadow: 0px 3px 20px 0px rgba(151, 151, 151, 0.25);
+}
+
+.footer-img-cat {
+    position: absolute;
+
+    width: 256px;
+    height: 256px;
+
+    top: -200px;
+    right: 1200px;
+
+    z-index: -1;
+}
+
+.footer-elements-block {
+    max-width: 900px;
+    min-width: 900px;
+
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+}
+
+.footer-elements-block-text-vertical-line {
+    width: 1px;
+    height: 49px;
+
+    background: #2D7039;
+
+    margin-top: 99px;
+
+    margin-left: 70px;
+    margin-right: 30px;
+}
+
+.footer-elements-block-text-block-title {
+    margin-top: 90px;
+    
+    color: #409C51;
+    font-family: "Inter-semibold";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 115%; /* 16.1px */
+
+}
+
+.footer-elements-block-text-block-subtitle {
+    margin-top: 30px;
+
+    color: #2D7039;
+    font-family: "Inter-regular";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 135.5%; /* 21.68px */
+}
+
+@media screen and (425px <= width <= 769px) {
+    .footer-elements-block-text-block-title {
+        font-size: 17px;
+    }
+    .footer-elements-block-text-block-subtitle {
+        font-size: 19px;
+    }
+}
+
+@media screen and (375px <= width < 425px) {
+    .footer-elements-block-text-block-title {
+        font-size: 18px;
+    }
+    .footer-elements-block-text-block-subtitle {
+        font-size: 20px;
+    }
+}
+
+@media screen and (320px <= width < 375px) {
+    .footer-elements-block-text-block-title {
+        font-size: 19px;
+    }
+    .footer-elements-block-text-block-subtitle {
+        font-size: 21px;
+    }
+}
+
+@media screen and (width < 320px) {
+    .footer-elements-block-text-block-title {
+        font-size: 20px;
+    }
+    .footer-elements-block-text-block-subtitle {
+        font-size: 22px;
+    }
+}

@@ -1,0 +1,216 @@
+@font-face {
+    font-family: "Montserrat-bold";
+    src: url('../fonts/Montserrat-Bold.ttf');
+}
+
+@font-face {
+    font-family: "Inter-bold";
+    src: url('../fonts/Inter-Bold.ttf');
+}
+
+@font-face {
+    font-family: "Inter-semibold";
+    src: url('../fonts/Inter-SemiBold.ttf');
+}
+
+@font-face {
+    font-family: "Inter-regular";
+    src: url('../fonts/Inter-Regular.ttf');
+}
+
+* {
+    outline: none;
+    border: 0px;
+}
+
+.mP-main {
+    display: flex;
+    flex-direction: row;
+
+    margin-right: auto;
+    margin-left: auto;
+
+    min-width: 1440px;
+    max-width: 1440px;
+}
+
+.mP-main-left {
+    margin-left: 94px;
+}
+
+.mP-main-left-title-block-title {
+    color: #7ABF8B;
+    font-family: "Montserrat-bold";
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 81.7%; /* 52.288px */
+    letter-spacing: -2.88px;
+}
+
+.mP-main-left-title-block-subtitle {
+    color: #7ABF8B;
+    font-family: "Inter-regular";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 135.5%; /* 21.68px */
+
+    margin-top: 39px;
+}
+
+.mP-main-left-inputs-block {
+    margin-top: 96px;
+}
+
+.mP-main-left-inputs-block-email-itself {
+    width: 508px;
+    height: 70px;
+    border-radius: 52px;
+    background: #E9F3ED;
+
+    color: #48A159;
+    font-family: "Inter-regular";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 115%; /* 16.1px */
+
+    padding-left: 31px;
+}
+
+.mP-main-left-inputs-block-email-itself::placeholder {
+    color: #48A159;
+    font-family: "Inter-regular";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 115%; /* 16.1px */
+
+}
+
+.mP-main-left-inputs-block-tg-itself {
+    width: 297.712px;
+    height: 70px;
+    border-radius: 52px;
+    background: #E9F3ED;
+
+    color: #48A159;
+    font-family: "Inter-regular";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 115%; /* 16.1px */
+
+    margin-top: 41px;
+
+    padding-left: 31px;
+}
+
+.mP-main-left-inputs-block-tg-itself::placeholder {
+    color: #48A159;
+    font-family: "Inter-regular";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 115%; /* 16.1px */
+}
+
+.mP-main-right {
+    position: relative;
+    display: flex;
+}
+
+.mP-main-right-img-ivy {
+    position: absolute;
+
+    top: 8px;
+    right: -540px;
+
+    width: 335px;
+    height: 450px;
+
+    z-index: 1;
+}
+
+.mP-main-right-img-module {
+    position: absolute;
+
+    top: -110px;
+    right: -400px;
+
+    width: 345px;
+    height: 512px;
+}
+
+.mP-main-right-img-dolle {
+    position: absolute;
+
+    top: 150px;
+    right: -610px;
+
+    width: 231px;
+    height: 231px;
+}
+
+@media screen and (425px <= width <= 769px) {
+    .mP-main-left-title-block-title {
+        font-size: 67px;
+    }
+    .mP-main-left-title-block-subtitle {
+        font-size: 25px;
+    }
+    .mP-main-left-inputs-block-email-itself,
+    .mP-main-left-inputs-block-email-itself::placeholder,
+    .mP-main-left-inputs-block-tg-itself,
+    .mP-main-left-inputs-block-tg-itself::placeholder {
+        font-size: 25px;
+    }
+}
+
+@media screen and (375px <= width < 425px) {
+    .mP-main-left-title-block-title {
+        font-size: 67px;
+    }
+    .mP-main-left-title-block-subtitle {
+        font-size: 25px;
+    }
+    .mP-main-left-inputs-block-email-itself,
+    .mP-main-left-inputs-block-email-itself::placeholder,
+    .mP-main-left-inputs-block-tg-itself,
+    .mP-main-left-inputs-block-tg-itself::placeholder {
+        font-size: 25px;
+    }
+}
+
+@media screen and (320px <= width < 375px) {
+    .mP-main-left-title-block-title {
+        font-size: 68px;
+    }
+    .mP-main-left-title-block-subtitle {
+        font-size: 26px;
+    }
+    .mP-main-left-inputs-block-email-itself,
+    .mP-main-left-inputs-block-email-itself::placeholder,
+    .mP-main-left-inputs-block-tg-itself,
+    .mP-main-left-inputs-block-tg-itself::placeholder {
+        font-size: 26px;
+    }
+}
+
+@media screen and (width < 320px) {
+    .mP-main-left-title-block-title {
+        font-size: 69px;
+    }
+    .mP-main-left-title-block-subtitle {
+        font-size: 27px;
+    }
+    .mP-main-left-inputs-block-email-itself,
+    .mP-main-left-inputs-block-email-itself::placeholder,
+    .mP-main-left-inputs-block-tg-itself,
+    .mP-main-left-inputs-block-tg-itself::placeholder {
+        font-size: 27px;
+    }
+}
+
+

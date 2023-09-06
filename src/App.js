@@ -1,6 +1,15 @@
 import { useState } from "react"
-import PreOrder from "./components/preOrder"
-import axios from "axios"
+import axios from 'axios';
+import "./index.css";
+import Header from "./components/header";
+import WhiteWave from "./components/whiteWave";
+import MakePreorder from "./components/makePreorder";
+import GreenWave from "./components/greenWave";
+import OurProducts from "./components/ourProducts";
+import Footer from "./components/footer";
+import FAQ from "./components/faq";
+import TeamGallery from "./components/teamGallery";
+
 
 function App() {
   const [order, setOrder] = useState([
@@ -28,11 +37,14 @@ function App() {
 
   return (
     <div className="App">
-      <PreOrder
-        handleFormSubmit={handleFormSubmit}
-        order={order}
-        setChangeInputs={setChangeInputs}
-      />
+      <Header />
+      <WhiteWave />
+      <GreenWave />
+      <OurProducts />
+      <FAQ />
+      <TeamGallery />
+      <MakePreorder order={order} setOrder={setOrder} />
+      <Footer />
     </div>
   )
 }
