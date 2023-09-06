@@ -39,10 +39,6 @@
     }
 }
 
-.oP-title-block {
-
-}
-
 .oP-title-block-title {
     color: #7ABF8B;
     font-family: "Montserrat-bold";
@@ -69,10 +65,6 @@
     flex-direction: row;
 
     justify-content: space-between;
-}
-
-.oP-products-product {
-
 }
 
 .oP-products-product-green-space {
@@ -198,6 +190,7 @@
     }
     .oP-products-product-title-block-title {
         font-size: 31px;
+        height: 64px;
     }
     .oP-products-product-description {
         font-size: 23px;
