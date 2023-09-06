@@ -19,13 +19,13 @@ const GreenWave = () => {
             <div className='gW'>
                 <img className='gW-green-wave-img-svg-itself' src={greenWave} alt='greenWave'></img>
                 <div className='gW-corner-imges'>
-                    <img className='gW-corner-imges-img-pleadingFace' src={pleadingFace}/>
-                    <img className='gW-corner-imges-img-alien' src={alien}/>
-                    <img className='gW-corner-imges-img-confidentSmile' src={confidentSmile}/>
-                    <img className='gW-corner-imges-img-cowboy' src={cowboy}/>
-                    <img className='gW-corner-imges-img-crazy' src={crazy}/>
-                    <img className='gW-corner-imges-img-hug' src={hug}/>
-                    <img className='gW-corner-imges-img-glasesMustage' src={glasesMustage}/>
+                    <img className='gW-corner-imges-img-pleadingFace' src={pleadingFace} alt='corner-img-emoji' />
+                    <img className='gW-corner-imges-img-alien' src={alien} alt='corner-img-emoji' />
+                    <img className='gW-corner-imges-img-confidentSmile' src={confidentSmile} alt='corner-img-emoji' />
+                    <img className='gW-corner-imges-img-cowboy' src={cowboy} alt='corner-img-emoji' />
+                    <img className='gW-corner-imges-img-crazy' src={crazy} alt='corner-img-emoji' />
+                    <img className='gW-corner-imges-img-hug' src={hug} alt='corner-img-emoji' />
+                    <img className='gW-corner-imges-img-glasesMustage' src={glasesMustage} alt='corner-img-emoji' />
                 </div>
                 <div className='gW-central'>    
                     
