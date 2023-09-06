@@ -165,7 +165,20 @@
     height: 231px;
 }
 
-
+@media screen and (426px < width < 769px) {
+    .mP-main-left-title-block-title {
+        font-size: 67px;
+    }
+    .mP-main-left-title-block-subtitle {
+        font-size: 25px;
+    }
+    .mP-main-left-inputs-block-email-itself,
+    .mP-main-left-inputs-block-email-itself::placeholder,
+    .mP-main-left-inputs-block-tg-itself,
+    .mP-main-left-inputs-block-tg-itself::placeholder {
+        font-size: 25px;
+    }
+}
 
 
 

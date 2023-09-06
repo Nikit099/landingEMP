@@ -196,7 +196,14 @@
 
 }
 
-
+@media screen and (426px < width < 769px) {
+    .gW-central-title {
+        font-size: 67px;
+    }
+    .gW-central-emojies-block-span {
+        font-size: 31px;
+    }
+}
 
 
 

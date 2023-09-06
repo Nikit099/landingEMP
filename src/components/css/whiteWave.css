@@ -212,3 +212,21 @@
 .wW-main-grid-text-span-3 {
 
 }
+
+@media screen and (426px < width < 769px) {
+    .wW-main {
+        margin-bottom: 90px;
+    }
+    
+    .wW-main-grid-title-1,
+    .wW-main-grid-title-2,
+    .wW-main-grid-title-3 {
+        font-size: 31px;
+        height: 72px;
+    }
+    .wW-main-grid-text-1,
+    .wW-main-grid-text-2,
+    .wW-main-grid-text-3 {
+        font-size: 23px;
+    }
+}

@@ -103,3 +103,11 @@
     line-height: 135.5%; /* 21.68px */
 }
 
+@media screen and (426px < width < 769px) {
+    .footer-elements-block-text-block-title {
+        font-size: 17px;
+    }
+    .footer-elements-block-text-block-subtitle {
+        font-size: 19px;
+    }
+}
