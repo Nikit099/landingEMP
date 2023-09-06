@@ -122,6 +122,13 @@
     right: 1320px;
 }
 
+@media screen and (width < 1450px) {
+    .gW-corner-imges-img-cowboy,
+    .gW-corner-imges-img-crazy {
+        display: none;
+    }
+}
+
 .gW-central {
     position: absolute;
     display: flex;

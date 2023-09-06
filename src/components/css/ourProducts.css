@@ -4,11 +4,6 @@
 }
 
 @font-face {
-    font-family: "Judson-regular";
-    src: url('../fonts/Judson-Regular.ttf');
-}
-
-@font-face {
     font-family: "Inter-bold";
     src: url('../fonts/Inter-Bold.ttf');
 }
@@ -34,9 +29,14 @@
     min-height: 1110px;
 
     margin-top: 123px;
-    margin-left: 94px;
+    margin-left: auto;
     margin-right: auto;
+}
 
+@media screen and (width < 1440px) {
+    .oP {
+        margin-left: 94px;
+    }
 }
 
 .oP-title-block {
@@ -57,8 +57,8 @@
     margin-top: 21px;
 
     color: #7ABF8B;
-    font-family: "Judson-regular";
-    font-size: 16px;
+    font-family: "Inter-regular";
+    font-size: 22px;
     font-style: normal;
     font-weight: 400;
     line-height: 135.5%; /* 21.68px */
@@ -82,7 +82,7 @@
     flex-direction: column;
 
     width: 366px;
-    height: 543px;
+    height: 640px;
     
     border-radius: 35px;
     background: linear-gradient(318deg, #C7F0CE 0%, #E6F1EB 100%);
@@ -125,12 +125,12 @@
 
 .oP-products-product-title-block-title {
     width: 298px;
-    height: 50px;
+    height: 64px;
 
     margin-left: 27px;
 
     font-family: "Montserrat-bold";
-    font-size: 22px;
+    font-size: 28px;
     font-style: normal;
     font-weight: 700;
     line-height: 115%; /* 25.3px */
@@ -158,14 +158,14 @@
 
 .oP-products-product-description {
     width: 310px;
-    height: 98px;
+    height: 162px;
 
     margin-top: 30px;
     margin-left: 27px;
 
     color: #4E8C59;
     font-family: "Inter-regular";
-    font-size: 16px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: 135.5%; /* 21.68px */
