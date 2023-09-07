@@ -154,7 +154,8 @@
     z-index: 2;
 }
 
-@media screen and (425px <= width <= 769px) {
+/*Tablet*/
+@media screen and (500px <= width <= 769px) {
     .header-left-title-span  {
         font-size: 99px;
     }
@@ -166,19 +167,8 @@
     }
 }
 
-@media screen and (375px <= width < 425px) {
-    .header-left-title-span  {
-        font-size: 100px;
-    }
-    .header-left-button-itself {
-        font-size: 34px;
-    }
-    .header-left-subtitle-span {
-        font-size: 26px;
-    }
-}
-
-@media screen and (320px <= width < 375px) {
+/*Mobile L*/
+@media screen and (375px <= width < 500px) {
     .header-left-title-span  {
         font-size: 101px;
     }
@@ -190,7 +180,8 @@
     }
 }
 
-@media screen and (width < 320px) {
+/*Mobile M*/
+@media screen and (320px <= width < 375px) {
     .header-left-title-span  {
         font-size: 102px;
     }
@@ -199,5 +190,18 @@
     }
     .header-left-subtitle-span {
         font-size: 28px;
+    }
+}
+
+/*Mobile S*/
+@media screen and (width < 320px) {
+    .header-left-title-span  {
+        font-size: 103px;
+    }
+    .header-left-button-itself {
+        font-size: 37px;
+    }
+    .header-left-subtitle-span {
+        font-size: 29px;
     }
 }

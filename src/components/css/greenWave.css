@@ -196,7 +196,9 @@
 
 }
 
-@media screen and (425px <= width <= 769px) {
+/*Tablet*/
+
+@media screen and (500px <= width <= 769px) {
     .gW-central-title {
         font-size: 67px;
     }
@@ -204,17 +206,8 @@
         font-size: 31px;
     }
 }
-
-@media screen and (375px <= width < 425px) {
-    .gW-central-title {
-        font-size: 68px;
-    }
-    .gW-central-emojies-block-span {
-        font-size: 32px;
-    }
-}
-
-@media screen and (320px <= width < 375px) {
+/*Mobile L*/
+@media screen and (375px <= width < 500px) {
     .gW-central-title {
         font-size: 69px;
     }
@@ -223,12 +216,23 @@
     }
 }
 
-@media screen and (width < 320px) {
+/*Mobile M*/
+@media screen and (320px <= width < 375px) {
     .gW-central-title {
         font-size: 70px;
     }
     .gW-central-emojies-block-span {
         font-size: 34px;
+    }
+}
+
+/*Mobile S*/
+@media screen and (width < 320px) {
+    .gW-central-title {
+        font-size: 71px;
+    }
+    .gW-central-emojies-block-span {
+        font-size: 35px;
     }
 }
 

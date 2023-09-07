@@ -153,7 +153,8 @@
     height: 231px;
 }
 
-@media screen and (425px <= width <= 769px) {
+/*Tablet*/
+@media screen and (500px <= width <= 769px) {
     .mP-main-left-title-block-title {
         font-size: 67px;
     }
@@ -167,23 +168,8 @@
         font-size: 25px;
     }
 }
-
-@media screen and (375px <= width < 425px) {
-    .mP-main-left-title-block-title {
-        font-size: 67px;
-    }
-    .mP-main-left-title-block-subtitle {
-        font-size: 25px;
-    }
-    .mP-main-left-inputs-block-email-itself,
-    .mP-main-left-inputs-block-email-itself::placeholder,
-    .mP-main-left-inputs-block-tg-itself,
-    .mP-main-left-inputs-block-tg-itself::placeholder {
-        font-size: 25px;
-    }
-}
-
-@media screen and (320px <= width < 375px) {
+/*Mobile L*/
+@media screen and (375px <= width < 500px) {
     .mP-main-left-title-block-title {
         font-size: 68px;
     }
@@ -197,8 +183,8 @@
         font-size: 26px;
     }
 }
-
-@media screen and (width < 320px) {
+/*Mobile M*/
+@media screen and (320px <= width < 375px) {
     .mP-main-left-title-block-title {
         font-size: 69px;
     }
@@ -210,6 +196,21 @@
     .mP-main-left-inputs-block-tg-itself,
     .mP-main-left-inputs-block-tg-itself::placeholder {
         font-size: 27px;
+    }
+}
+/*Mobile S*/
+@media screen and (width < 320px) {
+    .mP-main-left-title-block-title {
+        font-size: 70px;
+    }
+    .mP-main-left-title-block-subtitle {
+        font-size: 28px;
+    }
+    .mP-main-left-inputs-block-email-itself,
+    .mP-main-left-inputs-block-email-itself::placeholder,
+    .mP-main-left-inputs-block-tg-itself,
+    .mP-main-left-inputs-block-tg-itself::placeholder {
+        font-size: 28px;
     }
 }
 

@@ -213,7 +213,8 @@
 
 }
 
-@media screen and (425px <= width <= 769px) {
+/*Tablet*/
+@media screen and (500px <= width <= 769px) {
     .wW-main {
         margin-bottom: 90px;
     }
@@ -230,26 +231,8 @@
         font-size: 23px;
     }
 }
-
-@media screen and (375px <= width < 425px) {
-    .wW-main {
-        margin-bottom: 91px;
-    }
-    
-    .wW-main-grid-title-1,
-    .wW-main-grid-title-2,
-    .wW-main-grid-title-3 {
-        font-size: 32px;
-        height: 72px;
-    }
-    .wW-main-grid-text-1,
-    .wW-main-grid-text-2,
-    .wW-main-grid-text-3 {
-        font-size: 24px;
-    }
-}
-
-@media screen and (320px <= width < 375px) {
+/*Mobile L*/
+@media screen and (375px <= width < 500px) {
     .wW-main {
         margin-bottom: 92px;
     }
@@ -258,7 +241,7 @@
     .wW-main-grid-title-2,
     .wW-main-grid-title-3 {
         font-size: 33px;
-        height: 72px;
+        height: 73px;
     }
     .wW-main-grid-text-1,
     .wW-main-grid-text-2,
@@ -267,7 +250,8 @@
     }
 }
 
-@media screen and (width < 320px) {
+/*Mobile M*/
+@media screen and (320px <= width < 375px) {
     .wW-main {
         margin-bottom: 93px;
     }
@@ -276,11 +260,30 @@
     .wW-main-grid-title-2,
     .wW-main-grid-title-3 {
         font-size: 34px;
-        height: 72px;
+        height: 73px;
     }
     .wW-main-grid-text-1,
     .wW-main-grid-text-2,
     .wW-main-grid-text-3 {
         font-size: 26px;
+    }
+}
+
+/*Mobile S*/
+@media screen and (width < 320px) {
+    .wW-main {
+        margin-bottom: 94px;
+    }
+    
+    .wW-main-grid-title-1,
+    .wW-main-grid-title-2,
+    .wW-main-grid-title-3 {
+        font-size: 35px;
+        height: 73px;
+    }
+    .wW-main-grid-text-1,
+    .wW-main-grid-text-2,
+    .wW-main-grid-text-3 {
+        font-size: 27px;
     }
 }
